@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Are you want to know your screen resolution?</p>
+<p> please resize to know </p>
+<body onresize="myFunction()">
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x = window.outerWidth + "X" + window.outerHeight;
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>
